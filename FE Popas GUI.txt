@@ -1,0 +1,725 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER FROM MorrisBr
+]=]
+
+
+-- Instances: 37 | Scripts: ?? | Modules: ??
+
+local G2L = {}
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+
+--[[
+    Instances:
+--]]
+
+--MainModule
+G2L["0"] = Instance.new("ModuleScript")
+
+--MainModule.xd
+G2L["1"] = Instance.new("ScreenGui")
+
+--MainModule.xd.lol
+G2L["2"] = Instance.new("Frame")
+
+--MainModule.xd.lol.TextLabel
+G2L["3"] = Instance.new("TextLabel")
+
+--MainModule.xd.lol.TextLabel.123
+G2L["4"] = Instance.new("ScrollingFrame")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["5"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["6"] = Instance.new("RemoteEvent")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["7"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["8"] = Instance.new("LocalScript")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["9"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["10"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["11"] = Instance.new("LocalScript")
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["12"] = Instance.new("RemoteEvent")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["13"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["14"] = Instance.new("RemoteEvent")
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["15"] = Instance.new("LocalScript")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["16"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["17"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["18"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["19"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["20"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.De script
+G2L["21"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["22"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["23"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["24"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["25"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["26"] = Instance.new("RemoteEvent")
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["27"] = Instance.new("LocalScript")
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["28"] = Instance.new("Script")
+
+--MainModule.xd.lol.TextLabel.ImageLabel
+G2L["29"] = Instance.new("ImageLabel")
+
+--MainModule.xd.lol.TextLabel.ImageLabel
+G2L["30"] = Instance.new("ImageLabel")
+
+--MainModule.xd.lol.TextLabel
+G2L["31"] = Instance.new("TextLabel")
+
+--MainModule.xd.lol.TextLabel.test
+G2L["32"] = Instance.new("TextButton")
+
+--MainModule.xd.lol.TextLabel.test.RemoteEvent
+G2L["33"] = Instance.new("RemoteEvent")
+
+--MainModule.xd.lol.TextLabel.test.LocalScript
+G2L["34"] = Instance.new("LocalScript")
+
+--MainModule.xd.lol.TextLabel.test.Script
+G2L["35"] = Instance.new("Script")
+
+--MainModule.xd.xd
+G2L["36"] = Instance.new("LocalScript")
+
+
+
+--[[
+    Properties:
+--]]
+--MainModule
+G2L["0"].Name = [[MainModule]]
+G2L["0"].Parent = game.Players.LocalPlayer.PlayerGui
+
+--MainModule.xd
+G2L["1"].Name = [[xd]]
+G2L["1"].Enabled = true
+G2L["1"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+G2L["1"].Parent = G2L["0"]
+
+--MainModule.xd.lol
+G2L["2"].Name = [[lol]]
+G2L["2"].Active = false
+G2L["2"].AnchorPoint = Vector2.new(0, 0)
+G2L["2"].BackgroundColor3 = Color3.fromRGB(64, 255, 77)
+G2L["2"].BackgroundTransparency = 0
+G2L["2"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["2"].BorderSizePixel = 5
+G2L["2"].ClipsDescendants = false
+G2L["2"].Draggable = false
+G2L["2"].Position = UDim2.new(0.20703125, 0, 0.27321428, 0)
+G2L["2"].Rotation = 0
+G2L["2"].Selectable = false
+G2L["2"].SelectionOrder = 0
+G2L["2"].Size = UDim2.new(0, 450, 0, 253)
+G2L["2"].Visible = true
+G2L["2"].ZIndex = 1
+G2L["2"].Parent = G2L["1"]
+
+--MainModule.xd.lol.TextLabel
+G2L["3"].Name = [[TextLabel]]
+G2L["3"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["3"].Text = [[FE Popas Gui]]
+G2L["3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["3"].TextScaled = true
+G2L["3"].TextSize = 14
+G2L["3"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["3"].TextStrokeTransparency = 1
+G2L["3"].TextWrapped = true
+G2L["3"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["3"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["3"].Active = false
+G2L["3"].AnchorPoint = Vector2.new(0, 0)
+G2L["3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["3"].BackgroundTransparency = 0.5
+G2L["3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["3"].BorderSizePixel = 0
+G2L["3"].ClipsDescendants = false
+G2L["3"].Draggable = false
+G2L["3"].Position = UDim2.new(-0.0018576389, 0, -0.0034655544, 0)
+G2L["3"].Rotation = 0
+G2L["3"].Selectable = false
+G2L["3"].SelectionOrder = 0
+G2L["3"].Size = UDim2.new(0, 450, 0, 50)
+G2L["3"].Visible = true
+G2L["3"].ZIndex = 1
+G2L["3"].Parent = G2L["2"]
+
+--MainModule.xd.lol.TextLabel.123
+G2L["4"].Name = [[123]]
+G2L["4"].BottomImage = [[rbxasset://textures/ui/Scroll/scroll-bottom.png]]
+G2L["4"].CanvasSize = UDim2.new(0, 0, 2, 0)
+G2L["4"].HorizontalScrollBarInset = Enum.ScrollBarInset.None
+G2L["4"].ScrollBarThickness = 12
+G2L["4"].TopImage = [[rbxasset://textures/ui/Scroll/scroll-top.png]]
+G2L["4"].Active = true
+G2L["4"].AnchorPoint = Vector2.new(0, 0)
+G2L["4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["4"].BackgroundTransparency = 0.8
+G2L["4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].BorderSizePixel = 0
+G2L["4"].ClipsDescendants = true
+G2L["4"].Draggable = false
+G2L["4"].Position = UDim2.new(0.0022222223, 0, 0.9936758, 0)
+G2L["4"].Rotation = 0
+G2L["4"].Selectable = true
+G2L["4"].SelectionOrder = 0
+G2L["4"].Size = UDim2.new(0, 449, 0, 171)
+G2L["4"].Visible = true
+G2L["4"].ZIndex = 1
+G2L["4"].Parent = G2L["3"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["5"].Name = [[test]]
+G2L["5"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["5"].Text = [[RoXploit 4]]
+G2L["5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["5"].TextScaled = true
+G2L["5"].TextSize = 14
+G2L["5"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["5"].TextStrokeTransparency = 1
+G2L["5"].TextWrapped = true
+G2L["5"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["5"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["5"].Active = true
+G2L["5"].AnchorPoint = Vector2.new(0, 0)
+G2L["5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["5"].BackgroundTransparency = 0.3
+G2L["5"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["5"].BorderSizePixel = 3
+G2L["5"].ClipsDescendants = false
+G2L["5"].Draggable = false
+G2L["5"].Position = UDim2.new(0.017817372, 0, 0.05263158, 0)
+G2L["5"].Rotation = 0
+G2L["5"].Selectable = true
+G2L["5"].SelectionOrder = 0
+G2L["5"].Size = UDim2.new(0, 200, 0, 42)
+G2L["5"].Visible = true
+G2L["5"].ZIndex = 1
+G2L["5"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["6"].Name = [[RemoteEvent]]
+G2L["6"].Parent = G2L["5"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["7"].Name = [[Script]]
+G2L["7"].Parent = G2L["5"]
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["8"].Name = [[LocalScript]]
+G2L["8"].Parent = G2L["5"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["9"].Name = [[test]]
+G2L["9"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["9"].Text = [[Grab Knife]]
+G2L["9"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["9"].TextScaled = true
+G2L["9"].TextSize = 14
+G2L["9"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["9"].TextStrokeTransparency = 1
+G2L["9"].TextWrapped = true
+G2L["9"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["9"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["9"].Active = true
+G2L["9"].AnchorPoint = Vector2.new(0, 0)
+G2L["9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["9"].BackgroundTransparency = 0.3
+G2L["9"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["9"].BorderSizePixel = 3
+G2L["9"].ClipsDescendants = false
+G2L["9"].Draggable = false
+G2L["9"].Position = UDim2.new(0.53674835, 0, 0.05263158, 0)
+G2L["9"].Rotation = 0
+G2L["9"].Selectable = true
+G2L["9"].SelectionOrder = 0
+G2L["9"].Size = UDim2.new(0, 200, 0, 42)
+G2L["9"].Visible = true
+G2L["9"].ZIndex = 1
+G2L["9"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["10"].Name = [[Script]]
+G2L["10"].Parent = G2L["9"]
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["11"].Name = [[LocalScript]]
+G2L["11"].Parent = G2L["9"]
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["12"].Name = [[RemoteEvent]]
+G2L["12"].Parent = G2L["9"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["13"].Name = [[test]]
+G2L["13"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["13"].Text = [[Lua Hammer]]
+G2L["13"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["13"].TextScaled = true
+G2L["13"].TextSize = 14
+G2L["13"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["13"].TextStrokeTransparency = 1
+G2L["13"].TextWrapped = true
+G2L["13"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["13"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["13"].Active = true
+G2L["13"].AnchorPoint = Vector2.new(0, 0)
+G2L["13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["13"].BackgroundTransparency = 0.3
+G2L["13"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["13"].BorderSizePixel = 3
+G2L["13"].ClipsDescendants = false
+G2L["13"].Draggable = false
+G2L["13"].Position = UDim2.new(0.017817372, 0, 0.3508772, 0)
+G2L["13"].Rotation = 0
+G2L["13"].Selectable = true
+G2L["13"].SelectionOrder = 0
+G2L["13"].Size = UDim2.new(0, 200, 0, 46)
+G2L["13"].Visible = true
+G2L["13"].ZIndex = 1
+G2L["13"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["14"].Name = [[RemoteEvent]]
+G2L["14"].Parent = G2L["13"]
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["15"].Name = [[LocalScript]]
+G2L["15"].Parent = G2L["13"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["16"].Name = [[Script]]
+G2L["16"].Parent = G2L["13"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["17"].Name = [[test]]
+G2L["17"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["17"].Text = [[Shedletsky]]
+G2L["17"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["17"].TextScaled = true
+G2L["17"].TextSize = 14
+G2L["17"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["17"].TextStrokeTransparency = 1
+G2L["17"].TextWrapped = true
+G2L["17"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["17"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["17"].Active = true
+G2L["17"].AnchorPoint = Vector2.new(0, 0)
+G2L["17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["17"].BackgroundTransparency = 0.3
+G2L["17"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["17"].BorderSizePixel = 3
+G2L["17"].ClipsDescendants = false
+G2L["17"].Draggable = false
+G2L["17"].Position = UDim2.new(0.017817372, 0, 0.6725146, 0)
+G2L["17"].Rotation = 0
+G2L["17"].Selectable = true
+G2L["17"].SelectionOrder = 0
+G2L["17"].Size = UDim2.new(0, 200, 0, 44)
+G2L["17"].Visible = true
+G2L["17"].ZIndex = 1
+G2L["17"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["18"].Name = [[Script]]
+G2L["18"].Parent = G2L["17"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["19"].Name = [[Script]]
+G2L["19"].Parent = G2L["17"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["20"].Name = [[Script]]
+G2L["20"].Parent = G2L["17"]
+
+--MainModule.xd.lol.TextLabel.123.test.De script
+G2L["21"].Name = [[De script]]
+G2L["21"].Parent = G2L["17"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["22"].Name = [[test]]
+G2L["22"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["22"].Text = [[C00l]]
+G2L["22"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["22"].TextScaled = true
+G2L["22"].TextSize = 14
+G2L["22"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["22"].TextStrokeTransparency = 1
+G2L["22"].TextWrapped = true
+G2L["22"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["22"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["22"].Active = true
+G2L["22"].AnchorPoint = Vector2.new(0, 0)
+G2L["22"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["22"].BackgroundTransparency = 0.3
+G2L["22"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["22"].BorderSizePixel = 3
+G2L["22"].ClipsDescendants = false
+G2L["22"].Draggable = false
+G2L["22"].Position = UDim2.new(0.53674835, 0, 0.3508772, 0)
+G2L["22"].Rotation = 0
+G2L["22"].Selectable = true
+G2L["22"].SelectionOrder = 0
+G2L["22"].Size = UDim2.new(0, 200, 0, 46)
+G2L["22"].Visible = true
+G2L["22"].ZIndex = 1
+G2L["22"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["23"].Name = [[Script]]
+G2L["23"].Parent = G2L["22"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["24"].Name = [[Script]]
+G2L["24"].Parent = G2L["22"]
+
+--MainModule.xd.lol.TextLabel.123.test
+G2L["25"].Name = [[test]]
+G2L["25"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["25"].Text = [[John Doe]]
+G2L["25"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].TextScaled = true
+G2L["25"].TextSize = 14
+G2L["25"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].TextStrokeTransparency = 1
+G2L["25"].TextWrapped = true
+G2L["25"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["25"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["25"].Active = true
+G2L["25"].AnchorPoint = Vector2.new(0, 0)
+G2L["25"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["25"].BackgroundTransparency = 0.3
+G2L["25"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["25"].BorderSizePixel = 3
+G2L["25"].ClipsDescendants = false
+G2L["25"].Draggable = false
+G2L["25"].Position = UDim2.new(0.53674835, 0, 0.6725146, 0)
+G2L["25"].Rotation = 0
+G2L["25"].Selectable = true
+G2L["25"].SelectionOrder = 0
+G2L["25"].Size = UDim2.new(0, 200, 0, 44)
+G2L["25"].Visible = true
+G2L["25"].ZIndex = 1
+G2L["25"].Parent = G2L["4"]
+
+--MainModule.xd.lol.TextLabel.123.test.RemoteEvent
+G2L["26"].Name = [[RemoteEvent]]
+G2L["26"].Parent = G2L["25"]
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+G2L["27"].Name = [[LocalScript]]
+G2L["27"].Parent = G2L["25"]
+
+--MainModule.xd.lol.TextLabel.123.test.Script
+G2L["28"].Name = [[Script]]
+G2L["28"].Parent = G2L["25"]
+
+--MainModule.xd.lol.TextLabel.ImageLabel
+G2L["29"].Name = [[ImageLabel]]
+G2L["29"].Image = [[rbxassetid://12751684622]]
+G2L["29"].ImageColor3 = Color3.fromRGB(255, 255, 255)
+G2L["29"].ScaleType = Enum.ScaleType.Stretch
+G2L["29"].SliceCenter = Rect.new(0, 0, 0, 0)
+G2L["29"].TileSize = UDim2.new(1, 0, 1, 0)
+G2L["29"].Active = false
+G2L["29"].AnchorPoint = Vector2.new(0, 0)
+G2L["29"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["29"].BackgroundTransparency = 1
+G2L["29"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].BorderSizePixel = 0
+G2L["29"].ClipsDescendants = false
+G2L["29"].Draggable = false
+G2L["29"].Position = UDim2.new(0, 0, 0, 0)
+G2L["29"].Rotation = 0
+G2L["29"].Selectable = false
+G2L["29"].SelectionOrder = 0
+G2L["29"].Size = UDim2.new(0, 88, 0, 50)
+G2L["29"].Visible = true
+G2L["29"].ZIndex = 1
+G2L["29"].Parent = G2L["3"]
+
+--MainModule.xd.lol.TextLabel.ImageLabel
+G2L["30"].Name = [[ImageLabel]]
+G2L["30"].Image = [[rbxassetid://12725824679]]
+G2L["30"].ImageColor3 = Color3.fromRGB(255, 255, 255)
+G2L["30"].ScaleType = Enum.ScaleType.Stretch
+G2L["30"].SliceCenter = Rect.new(0, 0, 0, 0)
+G2L["30"].TileSize = UDim2.new(1, 0, 1, 0)
+G2L["30"].Active = false
+G2L["30"].AnchorPoint = Vector2.new(0, 0)
+G2L["30"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["30"].BackgroundTransparency = 1
+G2L["30"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["30"].BorderSizePixel = 0
+G2L["30"].ClipsDescendants = false
+G2L["30"].Draggable = false
+G2L["30"].Position = UDim2.new(0.80444443, 0, -0.02, 0)
+G2L["30"].Rotation = 0
+G2L["30"].Selectable = false
+G2L["30"].SelectionOrder = 0
+G2L["30"].Size = UDim2.new(0, 88, 0, 50)
+G2L["30"].Visible = true
+G2L["30"].ZIndex = 1
+G2L["30"].Parent = G2L["3"]
+
+--MainModule.xd.lol.TextLabel
+G2L["31"].Name = [[TextLabel]]
+G2L["31"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["31"].Text = [[Made By b0i16_]]
+G2L["31"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["31"].TextScaled = true
+G2L["31"].TextSize = 14
+G2L["31"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["31"].TextStrokeTransparency = 1
+G2L["31"].TextWrapped = true
+G2L["31"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["31"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["31"].Active = false
+G2L["31"].AnchorPoint = Vector2.new(0, 0)
+G2L["31"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["31"].BackgroundTransparency = 0.5
+G2L["31"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["31"].BorderSizePixel = 0
+G2L["31"].ClipsDescendants = false
+G2L["31"].Draggable = false
+G2L["31"].Position = UDim2.new(-0.0018576389, 0, 0.87190855, 0)
+G2L["31"].Rotation = 0
+G2L["31"].Selectable = false
+G2L["31"].SelectionOrder = 0
+G2L["31"].Size = UDim2.new(0, 450, 0, 32)
+G2L["31"].Visible = true
+G2L["31"].ZIndex = 1
+G2L["31"].Parent = G2L["2"]
+
+--MainModule.xd.lol.TextLabel.test
+G2L["32"].Name = [[test]]
+G2L["32"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+G2L["32"].Text = [[R6]]
+G2L["32"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["32"].TextScaled = true
+G2L["32"].TextSize = 14
+G2L["32"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["32"].TextStrokeTransparency = 1
+G2L["32"].TextWrapped = true
+G2L["32"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["32"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["32"].Active = true
+G2L["32"].AnchorPoint = Vector2.new(0, 0)
+G2L["32"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["32"].BackgroundTransparency = 0.3
+G2L["32"].BorderColor3 = Color3.fromRGB(35, 138, 42)
+G2L["32"].BorderSizePixel = 3
+G2L["32"].ClipsDescendants = false
+G2L["32"].Draggable = false
+G2L["32"].Position = UDim2.new(0.017817384, 0, 0.21874905, 0)
+G2L["32"].Rotation = 0
+G2L["32"].Selectable = true
+G2L["32"].SelectionOrder = 0
+G2L["32"].Size = UDim2.new(0, 79, 0, 21)
+G2L["32"].Visible = true
+G2L["32"].ZIndex = 1
+G2L["32"].Parent = G2L["31"]
+
+--MainModule.xd.lol.TextLabel.test.RemoteEvent
+G2L["33"].Name = [[RemoteEvent]]
+G2L["33"].Parent = G2L["32"]
+
+--MainModule.xd.lol.TextLabel.test.LocalScript
+G2L["34"].Name = [[LocalScript]]
+G2L["34"].Parent = G2L["32"]
+
+--MainModule.xd.lol.TextLabel.test.Script
+G2L["35"].Name = [[Script]]
+G2L["35"].Parent = G2L["32"]
+
+--MainModule.xd.xd
+G2L["36"].Name = [[xd]]
+G2L["36"].Parent = G2L["1"]
+
+--[[
+    Scripts
+--]]
+--MainModule
+G2L_MODULES[G2L["0"]] = {
+Closure = function()
+local script = G2L["0"]
+local module = {}
+function module.fe(plr)
+    local isStudio = game:GetService("RunService"):IsStudio()
+    for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+        if string.sub(string.lower(v.Name), 0, string.len(plr)) == string.lower(plr) then
+            if(isStudio)then
+                v:Kick("No")
+                script:Destroy()
+            else
+                local e = script.xd:Clone()
+                e.Parent = v:FindFirstChildWhichIsA("PlayerGui")
+            end
+        end
+    end
+end
+return module
+end
+}
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+local function C_G2L_8()
+local script = G2L["8"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_8)
+
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+local function C_G2L_11()
+local script = G2L["11"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_11)
+
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+local function C_G2L_15()
+local script = G2L["15"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_15)
+
+
+--MainModule.xd.lol.TextLabel.123.test.LocalScript
+local function C_G2L_27()
+local script = G2L["27"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_27)
+
+
+--MainModule.xd.lol.TextLabel.test.LocalScript
+local function C_G2L_34()
+local script = G2L["34"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_34)
+
+
+--MainModule.xd.xd
+local function C_G2L_36()
+local script = G2L["36"]
+function dragify(Main)
+	dragToggle = nil
+	dragSpeed = 0.95 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
+
+	function updateInput(input)
+		Delta = input.Position - dragStart
+		Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+		game:GetService("TweenService"):Create(Main, TweenInfo.new(.25), {Position = Position}):Play()
+	end
+
+	Main.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = Main.Position
+			input.Changed:Connect(function()
+				if (input.UserInputState == Enum.UserInputState.End) then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+
+	Main.InputChanged:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			dragInput = input
+		end
+	end)
+
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if (input == dragInput and dragToggle) then
+			updateInput(input)
+		end
+	end)
+end
+
+dragify(script.Parent.lol)
+
+end
+task.spawn(C_G2L_36)
+
+
+
+return G2L["0"], require;

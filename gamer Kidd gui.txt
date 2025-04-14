@@ -1,0 +1,1040 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER FROM MorrisBr
+]=]
+
+
+-- Instances: 66 | Scripts: ?? | Modules: ??
+
+local G2L = {}
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+
+--[[
+    Instances:
+--]]
+
+--MainModule
+G2L["0"] = Instance.new("ModuleScript")
+
+--MainModule.O2
+G2L["1"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat
+G2L["2"] = Instance.new("Folder")
+
+--MainModule.O2.touchstringanticheat.ScreenGui
+G2L["3"] = Instance.new("ScreenGui")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame
+G2L["4"] = Instance.new("ScrollingFrame")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.Script
+G2L["5"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel
+G2L["6"] = Instance.new("TextLabel")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["7"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["8"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["9"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["10"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["11"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["12"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["13"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["14"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["15"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.ImageLabel
+G2L["16"] = Instance.new("ImageLabel")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.ImageLabel
+G2L["17"] = Instance.new("ImageLabel")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["18"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["19"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["20"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.MLG particles
+G2L["21"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.MLG particles.Script
+G2L["22"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Particles
+G2L["23"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Particles.Script
+G2L["24"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6
+G2L["25"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.Script
+G2L["26"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.LocalScript
+G2L["27"] = Instance.new("LocalScript")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.RemoteEvent
+G2L["28"] = Instance.new("RemoteEvent")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox
+G2L["29"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["30"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["31"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["32"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["33"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["34"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["35"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["36"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.THEY GON RUMBLE
+G2L["37"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.THEY GON RUMBLE.De script
+G2L["38"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["39"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..UIStroke
+G2L["40"] = Instance.new("UIStroke")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["41"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["42"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["43"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["44"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..UIStroke
+G2L["45"] = Instance.new("UIStroke")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["46"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["47"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["48"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["49"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["50"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["51"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["52"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["53"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["54"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["55"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["56"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["57"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["58"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["59"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["60"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["61"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..LocalScript
+G2L["62"] = Instance.new("LocalScript")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["63"] = Instance.new("TextButton")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["64"] = Instance.new("Script")
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.Drag Gui Script
+G2L["65"] = Instance.new("LocalScript")
+
+
+
+--[[
+    Properties:
+--]]
+--MainModule
+G2L["0"].Name = [[MainModule]]
+G2L["0"].Parent = game.Players.LocalPlayer.PlayerGui
+
+--MainModule.O2
+G2L["1"].Name = [[O2]]
+G2L["1"].Parent = G2L["0"]
+
+--MainModule.O2.touchstringanticheat
+G2L["2"].Name = [[touchstringanticheat]]
+G2L["2"].Parent = G2L["1"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui
+G2L["3"].Name = [[ScreenGui]]
+G2L["3"].Enabled = true
+G2L["3"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+G2L["3"].Parent = G2L["2"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame
+G2L["4"].Name = [[ScrollingFrame]]
+G2L["4"].BottomImage = [[rbxasset://textures/ui/Scroll/scroll-bottom.png]]
+G2L["4"].CanvasSize = UDim2.new(0, 0, 2, 0)
+G2L["4"].HorizontalScrollBarInset = Enum.ScrollBarInset.None
+G2L["4"].ScrollBarThickness = 12
+G2L["4"].TopImage = [[rbxasset://textures/ui/Scroll/scroll-top.png]]
+G2L["4"].Active = true
+G2L["4"].AnchorPoint = Vector2.new(0, 0)
+G2L["4"].BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+G2L["4"].BackgroundTransparency = 0
+G2L["4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].BorderSizePixel = 0
+G2L["4"].ClipsDescendants = true
+G2L["4"].Draggable = false
+G2L["4"].Position = UDim2.new(0.07408683, 0, 0.09341033, 0)
+G2L["4"].Rotation = 0
+G2L["4"].Selectable = true
+G2L["4"].SelectionOrder = 0
+G2L["4"].Size = UDim2.new(0, 434, 0, 511)
+G2L["4"].Visible = true
+G2L["4"].ZIndex = 1
+G2L["4"].Parent = G2L["3"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.Script
+G2L["5"].Name = [[Script]]
+G2L["5"].Parent = G2L["4"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel
+G2L["6"].Name = [[TextLabel]]
+G2L["6"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["6"].Text = [[g4m3rk1dd gui v7]]
+G2L["6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].TextScaled = true
+G2L["6"].TextSize = 14
+G2L["6"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].TextStrokeTransparency = 1
+G2L["6"].TextWrapped = true
+G2L["6"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["6"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["6"].Active = false
+G2L["6"].AnchorPoint = Vector2.new(0, 0)
+G2L["6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["6"].BackgroundTransparency = 1
+G2L["6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].BorderSizePixel = 0
+G2L["6"].ClipsDescendants = false
+G2L["6"].Draggable = false
+G2L["6"].Position = UDim2.new(0, 0, 0, 0)
+G2L["6"].Rotation = 0
+G2L["6"].Selectable = false
+G2L["6"].SelectionOrder = 0
+G2L["6"].Size = UDim2.new(0, 434, 0, 50)
+G2L["6"].Visible = true
+G2L["6"].ZIndex = 1
+G2L["6"].Parent = G2L["4"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["7"].Name = [[Decalspam1]]
+G2L["7"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["7"].Text = [[Music Play]]
+G2L["7"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["7"].TextScaled = true
+G2L["7"].TextSize = 14
+G2L["7"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["7"].TextStrokeTransparency = 1
+G2L["7"].TextWrapped = true
+G2L["7"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["7"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["7"].Active = true
+G2L["7"].AnchorPoint = Vector2.new(0, 0)
+G2L["7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["7"].BackgroundTransparency = 0
+G2L["7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["7"].BorderSizePixel = 0
+G2L["7"].ClipsDescendants = false
+G2L["7"].Draggable = false
+G2L["7"].Position = UDim2.new(0.35336733, 0, 1.4707354, 0)
+G2L["7"].Rotation = 0
+G2L["7"].Selectable = true
+G2L["7"].SelectionOrder = 0
+G2L["7"].Size = UDim2.new(0, 111, 0, 47)
+G2L["7"].Visible = true
+G2L["7"].ZIndex = 1
+G2L["7"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["8"].Name = [[Script]]
+G2L["8"].Parent = G2L["7"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["9"].Name = [[Decalspam1]]
+G2L["9"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["9"].Text = [[Decal 1]]
+G2L["9"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["9"].TextScaled = true
+G2L["9"].TextSize = 14
+G2L["9"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["9"].TextStrokeTransparency = 1
+G2L["9"].TextWrapped = true
+G2L["9"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["9"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["9"].Active = true
+G2L["9"].AnchorPoint = Vector2.new(0, 0)
+G2L["9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["9"].BackgroundTransparency = 0
+G2L["9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["9"].BorderSizePixel = 0
+G2L["9"].ClipsDescendants = false
+G2L["9"].Draggable = false
+G2L["9"].Position = UDim2.new(-0.0005959014, 0, 1.4707354, 0)
+G2L["9"].Rotation = 0
+G2L["9"].Selectable = true
+G2L["9"].SelectionOrder = 0
+G2L["9"].Size = UDim2.new(0, 67, 0, 47)
+G2L["9"].Visible = true
+G2L["9"].ZIndex = 1
+G2L["9"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["10"].Name = [[Script]]
+G2L["10"].Parent = G2L["9"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["11"].Name = [[Script]]
+G2L["11"].Parent = G2L["9"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["12"].Name = [[Decalspam1]]
+G2L["12"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["12"].Text = [[Hint]]
+G2L["12"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].TextScaled = true
+G2L["12"].TextSize = 14
+G2L["12"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].TextStrokeTransparency = 1
+G2L["12"].TextWrapped = true
+G2L["12"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["12"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["12"].Active = true
+G2L["12"].AnchorPoint = Vector2.new(0, 0)
+G2L["12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["12"].BackgroundTransparency = 0
+G2L["12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].BorderSizePixel = 0
+G2L["12"].ClipsDescendants = false
+G2L["12"].Draggable = false
+G2L["12"].Position = UDim2.new(-0.00083163916, 0, 2.6107354, 0)
+G2L["12"].Rotation = 0
+G2L["12"].Selectable = true
+G2L["12"].SelectionOrder = 0
+G2L["12"].Size = UDim2.new(0, 147, 0, 47)
+G2L["12"].Visible = true
+G2L["12"].ZIndex = 1
+G2L["12"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["13"].Name = [[Script]]
+G2L["13"].Parent = G2L["12"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["14"].Name = [[Decalspam1]]
+G2L["14"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["14"].Text = [[666]]
+G2L["14"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextScaled = true
+G2L["14"].TextSize = 14
+G2L["14"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextStrokeTransparency = 1
+G2L["14"].TextWrapped = true
+G2L["14"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["14"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["14"].Active = true
+G2L["14"].AnchorPoint = Vector2.new(0, 0)
+G2L["14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["14"].BackgroundTransparency = 0
+G2L["14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].BorderSizePixel = 0
+G2L["14"].ClipsDescendants = false
+G2L["14"].Draggable = false
+G2L["14"].Position = UDim2.new(-0.0005959014, 0, 3.7602594, 0)
+G2L["14"].Rotation = 0
+G2L["14"].Selectable = true
+G2L["14"].SelectionOrder = 0
+G2L["14"].Size = UDim2.new(0, 147, 0, 47)
+G2L["14"].Visible = true
+G2L["14"].ZIndex = 1
+G2L["14"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["15"].Name = [[Script]]
+G2L["15"].Parent = G2L["14"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.ImageLabel
+G2L["16"].Name = [[ImageLabel]]
+G2L["16"].Image = [[rbxassetid://15632989774]]
+G2L["16"].ImageColor3 = Color3.fromRGB(255, 255, 255)
+G2L["16"].ScaleType = Enum.ScaleType.Stretch
+G2L["16"].SliceCenter = Rect.new(0, 0, 0, 0)
+G2L["16"].TileSize = UDim2.new(1, 0, 1, 0)
+G2L["16"].Active = false
+G2L["16"].AnchorPoint = Vector2.new(0, 0)
+G2L["16"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["16"].BackgroundTransparency = 0
+G2L["16"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["16"].BorderSizePixel = 0
+G2L["16"].ClipsDescendants = false
+G2L["16"].Draggable = false
+G2L["16"].Position = UDim2.new(0, 0, 0.17667328, 0)
+G2L["16"].Rotation = 0
+G2L["16"].Selectable = false
+G2L["16"].SelectionOrder = 0
+G2L["16"].Size = UDim2.new(0, 57, 0, 32)
+G2L["16"].Visible = true
+G2L["16"].ZIndex = 1
+G2L["16"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.ImageLabel
+G2L["17"].Name = [[ImageLabel]]
+G2L["17"].Image = [[rbxassetid://15633010620]]
+G2L["17"].ImageColor3 = Color3.fromRGB(255, 255, 255)
+G2L["17"].ScaleType = Enum.ScaleType.Stretch
+G2L["17"].SliceCenter = Rect.new(0, 0, 0, 0)
+G2L["17"].TileSize = UDim2.new(1, 0, 1, 0)
+G2L["17"].Active = false
+G2L["17"].AnchorPoint = Vector2.new(0, 0)
+G2L["17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["17"].BackgroundTransparency = 1
+G2L["17"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["17"].BorderSizePixel = 0
+G2L["17"].ClipsDescendants = false
+G2L["17"].Draggable = false
+G2L["17"].Position = UDim2.new(0.843318, 0, 0.17667328, 0)
+G2L["17"].Rotation = 0
+G2L["17"].Selectable = false
+G2L["17"].SelectionOrder = 0
+G2L["17"].Size = UDim2.new(0, 57, 0, 32)
+G2L["17"].Visible = true
+G2L["17"].ZIndex = 1
+G2L["17"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1
+G2L["18"].Name = [[Decalspam1]]
+G2L["18"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["18"].Text = [[Decal 2]]
+G2L["18"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["18"].TextScaled = true
+G2L["18"].TextSize = 14
+G2L["18"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["18"].TextStrokeTransparency = 1
+G2L["18"].TextWrapped = true
+G2L["18"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["18"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["18"].Active = true
+G2L["18"].AnchorPoint = Vector2.new(0, 0)
+G2L["18"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["18"].BackgroundTransparency = 0
+G2L["18"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["18"].BorderSizePixel = 0
+G2L["18"].ClipsDescendants = false
+G2L["18"].Draggable = false
+G2L["18"].Position = UDim2.new(0.18373589, 0, 1.4707354, 0)
+G2L["18"].Rotation = 0
+G2L["18"].Selectable = true
+G2L["18"].SelectionOrder = 0
+G2L["18"].Size = UDim2.new(0, 67, 0, 47)
+G2L["18"].Visible = true
+G2L["18"].ZIndex = 1
+G2L["18"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["19"].Name = [[Script]]
+G2L["19"].Parent = G2L["18"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Decalspam1.Script
+G2L["20"].Name = [[Script]]
+G2L["20"].Parent = G2L["18"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.MLG particles
+G2L["21"].Name = [[MLG particles]]
+G2L["21"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["21"].Text = [[MLG Particles]]
+G2L["21"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["21"].TextScaled = true
+G2L["21"].TextSize = 32
+G2L["21"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["21"].TextStrokeTransparency = 1
+G2L["21"].TextWrapped = true
+G2L["21"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["21"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["21"].Active = true
+G2L["21"].AnchorPoint = Vector2.new(0, 0)
+G2L["21"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["21"].BackgroundTransparency = 0
+G2L["21"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["21"].BorderSizePixel = 0
+G2L["21"].ClipsDescendants = false
+G2L["21"].Draggable = false
+G2L["21"].Position = UDim2.new(0.3568746, 0, 2.6024206, 0)
+G2L["21"].Rotation = 0
+G2L["21"].Selectable = true
+G2L["21"].SelectionOrder = 0
+G2L["21"].Size = UDim2.new(0, 109, 0, 47)
+G2L["21"].Visible = true
+G2L["21"].ZIndex = 1
+G2L["21"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.MLG particles.Script
+G2L["22"].Name = [[Script]]
+G2L["22"].Parent = G2L["21"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Particles
+G2L["23"].Name = [[Particles]]
+G2L["23"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["23"].Text = [[Particels]]
+G2L["23"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["23"].TextScaled = true
+G2L["23"].TextSize = 32
+G2L["23"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["23"].TextStrokeTransparency = 1
+G2L["23"].TextWrapped = true
+G2L["23"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["23"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["23"].Active = true
+G2L["23"].AnchorPoint = Vector2.new(0, 0)
+G2L["23"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["23"].BackgroundTransparency = 0
+G2L["23"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["23"].BorderSizePixel = 0
+G2L["23"].ClipsDescendants = false
+G2L["23"].Draggable = false
+G2L["23"].Position = UDim2.new(0.6226873, 0, 1.5968757, 0)
+G2L["23"].Rotation = 0
+G2L["23"].Selectable = true
+G2L["23"].SelectionOrder = 0
+G2L["23"].Size = UDim2.new(0, 126, 0, 40)
+G2L["23"].Visible = true
+G2L["23"].ZIndex = 1
+G2L["23"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Particles.Script
+G2L["24"].Name = [[Script]]
+G2L["24"].Parent = G2L["23"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6
+G2L["25"].Name = [[R6]]
+G2L["25"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["25"].Text = [[R6]]
+G2L["25"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].TextScaled = true
+G2L["25"].TextSize = 32
+G2L["25"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].TextStrokeTransparency = 1
+G2L["25"].TextWrapped = true
+G2L["25"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["25"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["25"].Active = true
+G2L["25"].AnchorPoint = Vector2.new(0, 0)
+G2L["25"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["25"].BackgroundTransparency = 0
+G2L["25"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].BorderSizePixel = 0
+G2L["25"].ClipsDescendants = false
+G2L["25"].Draggable = false
+G2L["25"].Position = UDim2.new(0.86546963, 0, 1.04471, 0)
+G2L["25"].Rotation = 0
+G2L["25"].Selectable = true
+G2L["25"].SelectionOrder = 0
+G2L["25"].Size = UDim2.new(0, 37, 0, 21)
+G2L["25"].Visible = true
+G2L["25"].ZIndex = 1
+G2L["25"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.Script
+G2L["26"].Name = [[Script]]
+G2L["26"].Parent = G2L["25"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.LocalScript
+G2L["27"].Name = [[LocalScript]]
+G2L["27"].Parent = G2L["25"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.RemoteEvent
+G2L["28"].Name = [[RemoteEvent]]
+G2L["28"].Parent = G2L["25"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox
+G2L["29"].Name = [[Skybox]]
+G2L["29"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["29"].Text = [[toadroasted remake]]
+G2L["29"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].TextScaled = true
+G2L["29"].TextSize = 32
+G2L["29"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].TextStrokeTransparency = 1
+G2L["29"].TextWrapped = true
+G2L["29"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["29"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["29"].Active = true
+G2L["29"].AnchorPoint = Vector2.new(0, 0)
+G2L["29"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["29"].BackgroundTransparency = 0
+G2L["29"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].BorderSizePixel = 0
+G2L["29"].ClipsDescendants = false
+G2L["29"].Draggable = false
+G2L["29"].Position = UDim2.new(0.37329945, 0, 3.7538855, 0)
+G2L["29"].Rotation = 0
+G2L["29"].Selectable = true
+G2L["29"].SelectionOrder = 0
+G2L["29"].Size = UDim2.new(0, 109, 0, 47)
+G2L["29"].Visible = true
+G2L["29"].ZIndex = 1
+G2L["29"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["30"].Name = [[Script]]
+G2L["30"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["31"].Name = [[Script]]
+G2L["31"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["32"].Name = [[Script]]
+G2L["32"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["33"].Name = [[Script]]
+G2L["33"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["34"].Name = [[Script]]
+G2L["34"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["35"].Name = [[Script]]
+G2L["35"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.Skybox.Script
+G2L["36"].Name = [[Script]]
+G2L["36"].Parent = G2L["29"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.THEY GON RUMBLE
+G2L["37"].Name = [[THEY GON RUMBLE]]
+G2L["37"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["37"].Text = [[THEY GON RUMBLE]]
+G2L["37"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["37"].TextScaled = true
+G2L["37"].TextSize = 32
+G2L["37"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["37"].TextStrokeTransparency = 1
+G2L["37"].TextWrapped = true
+G2L["37"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["37"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["37"].Active = true
+G2L["37"].AnchorPoint = Vector2.new(0, 0)
+G2L["37"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["37"].BackgroundTransparency = 0
+G2L["37"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["37"].BorderSizePixel = 0
+G2L["37"].ClipsDescendants = false
+G2L["37"].Draggable = false
+G2L["37"].Position = UDim2.new(0.64110863, 0, 2.5855334, 0)
+G2L["37"].Rotation = 0
+G2L["37"].Selectable = true
+G2L["37"].SelectionOrder = 0
+G2L["37"].Size = UDim2.new(0, 109, 0, 47)
+G2L["37"].Visible = true
+G2L["37"].ZIndex = 1
+G2L["37"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.THEY GON RUMBLE.De script
+G2L["38"].Name = [[De script]]
+G2L["38"].Parent = G2L["37"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["39"].Name = [[]]
+G2L["39"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["39"].Text = [[funni spam]]
+G2L["39"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["39"].TextScaled = true
+G2L["39"].TextSize = 14
+G2L["39"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["39"].TextStrokeTransparency = 1
+G2L["39"].TextWrapped = true
+G2L["39"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["39"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["39"].Active = true
+G2L["39"].AnchorPoint = Vector2.new(0, 0)
+G2L["39"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["39"].BackgroundTransparency = 0
+G2L["39"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["39"].BorderSizePixel = 0
+G2L["39"].ClipsDescendants = false
+G2L["39"].Draggable = false
+G2L["39"].Position = UDim2.new(1.165, 0, 6.02, 0)
+G2L["39"].Rotation = 0
+G2L["39"].Selectable = true
+G2L["39"].SelectionOrder = 0
+G2L["39"].Size = UDim2.new(0, 125, 0, 42)
+G2L["39"].Visible = true
+G2L["39"].ZIndex = 1
+G2L["39"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..UIStroke
+G2L["40"].Name = [[UIStroke]]
+G2L["40"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+G2L["40"].Color = Color3.fromRGB(170, 0, 255)
+G2L["40"].Enabled = true
+G2L["40"].Thickness = 2
+G2L["40"].Transparency = 0
+G2L["40"].Parent = G2L["39"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["41"].Name = [[Script]]
+G2L["41"].Parent = G2L["39"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["42"].Name = [[Script]]
+G2L["42"].Parent = G2L["39"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["43"].Name = [[Script]]
+G2L["43"].Parent = G2L["39"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["44"].Name = [[]]
+G2L["44"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["44"].Text = [[Raining Tacos]]
+G2L["44"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["44"].TextScaled = true
+G2L["44"].TextSize = 14
+G2L["44"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["44"].TextStrokeTransparency = 1
+G2L["44"].TextWrapped = true
+G2L["44"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["44"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["44"].Active = true
+G2L["44"].AnchorPoint = Vector2.new(0, 0)
+G2L["44"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["44"].BackgroundTransparency = 0
+G2L["44"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["44"].BorderSizePixel = 0
+G2L["44"].ClipsDescendants = false
+G2L["44"].Draggable = false
+G2L["44"].Position = UDim2.new(-0.88, 0, 7.02, 0)
+G2L["44"].Rotation = 0
+G2L["44"].Selectable = true
+G2L["44"].SelectionOrder = 0
+G2L["44"].Size = UDim2.new(0, 125, 0, 42)
+G2L["44"].Visible = true
+G2L["44"].ZIndex = 1
+G2L["44"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..UIStroke
+G2L["45"].Name = [[UIStroke]]
+G2L["45"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+G2L["45"].Color = Color3.fromRGB(170, 0, 255)
+G2L["45"].Enabled = true
+G2L["45"].Thickness = 2
+G2L["45"].Transparency = 0
+G2L["45"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["46"].Name = [[Script]]
+G2L["46"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["47"].Name = [[Script]]
+G2L["47"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["48"].Name = [[Script]]
+G2L["48"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["49"].Name = [[Script]]
+G2L["49"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["50"].Name = [[Script]]
+G2L["50"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["51"].Name = [[Script]]
+G2L["51"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["52"].Name = [[Script]]
+G2L["52"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["53"].Name = [[Script]]
+G2L["53"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["54"].Name = [[Script]]
+G2L["54"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["55"].Name = [[Script]]
+G2L["55"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["56"].Name = [[Script]]
+G2L["56"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["57"].Name = [[Script]]
+G2L["57"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["58"].Name = [[Script]]
+G2L["58"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["59"].Name = [[Script]]
+G2L["59"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["60"].Name = [[Script]]
+G2L["60"].Parent = G2L["44"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["61"].Name = [[]]
+G2L["61"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["61"].Text = [[undetectable gui v8]]
+G2L["61"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["61"].TextScaled = true
+G2L["61"].TextSize = 14
+G2L["61"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["61"].TextStrokeTransparency = 1
+G2L["61"].TextWrapped = true
+G2L["61"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["61"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["61"].Active = true
+G2L["61"].AnchorPoint = Vector2.new(0, 0)
+G2L["61"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["61"].BackgroundTransparency = 0
+G2L["61"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["61"].BorderSizePixel = 0
+G2L["61"].ClipsDescendants = false
+G2L["61"].Draggable = false
+G2L["61"].Position = UDim2.new(0.0246774, 0, 4.96, 0)
+G2L["61"].Rotation = 0
+G2L["61"].Selectable = true
+G2L["61"].SelectionOrder = 0
+G2L["61"].Size = UDim2.new(0, 135, 0, 42)
+G2L["61"].Visible = true
+G2L["61"].ZIndex = 1
+G2L["61"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..LocalScript
+G2L["62"].Name = [[LocalScript]]
+G2L["62"].Parent = G2L["61"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.
+G2L["63"].Name = [[]]
+G2L["63"].FontFace = Font.new([[rbxasset://fonts/families/Bangers.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["63"].Text = [[Coem Face All]]
+G2L["63"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["63"].TextScaled = true
+G2L["63"].TextSize = 14
+G2L["63"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["63"].TextStrokeTransparency = 1
+G2L["63"].TextWrapped = true
+G2L["63"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["63"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["63"].Active = true
+G2L["63"].AnchorPoint = Vector2.new(0, 0)
+G2L["63"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["63"].BackgroundTransparency = 0
+G2L["63"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["63"].BorderSizePixel = 0
+G2L["63"].ClipsDescendants = false
+G2L["63"].Draggable = false
+G2L["63"].Position = UDim2.new(0.66437787, 0, 3.8, 0)
+G2L["63"].Rotation = 0
+G2L["63"].Selectable = true
+G2L["63"].SelectionOrder = 0
+G2L["63"].Size = UDim2.new(0, 87, 0, 42)
+G2L["63"].Visible = true
+G2L["63"].ZIndex = 1
+G2L["63"].Parent = G2L["6"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..Script
+G2L["64"].Name = [[Script]]
+G2L["64"].Parent = G2L["63"]
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.Drag Gui Script
+G2L["65"].Name = [[Drag Gui Script]]
+G2L["65"].Parent = G2L["4"]
+
+--[[
+    Scripts
+--]]
+--MainModule
+G2L_MODULES[G2L["0"]] = {
+Closure = function()
+local script = G2L["0"]
+local module = {}
+function module.Ea(p)
+	if game:GetService("Players"):FindFirstChild(p) then
+		local touchstringanticheat = script.O2:Clone()
+		touchstringanticheat.Parent = game:GetService("Players"):FindFirstChild(p):FindFirstChildOfClass("PlayerGui")
+		touchstringanticheat.Enabled = true
+		
+	end
+
+end
+
+return module
+
+end
+}
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel.R6.LocalScript
+local function C_G2L_27()
+local script = G2L["27"]
+script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.RemoteEvent:FireServer()
+end)
+end
+task.spawn(C_G2L_27)
+
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.TextLabel..LocalScript
+local function C_G2L_62()
+local script = G2L["62"]
+script.Parent.MouseButton1Click:Connect(function() 
+	script.Parent.Parent.Parent.Parent.Parent.undetect.Visible = true
+	script.Parent.Parent.Parent.Parent.Parent.Main.Visible = true
+end)
+end
+task.spawn(C_G2L_62)
+
+
+--MainModule.O2.touchstringanticheat.ScreenGui.ScrollingFrame.Drag Gui Script
+local function C_G2L_65()
+local script = G2L["65"]
+function dragify(Main)
+dragToggle = nil
+dragSpeed = 0.95 -- You can edit this.
+dragInput = nil
+dragStart = nil
+dragPos = nil
+
+function updateInput(input)
+Delta = input.Position - dragStart
+Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+game:GetService("TweenService"):Create(Main, TweenInfo.new(.25), {Position = Position}):Play()
+end
+
+Main.InputBegan:Connect(function(input)
+if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+dragToggle = true
+dragStart = input.Position
+startPos = Main.Position
+input.Changed:Connect(function()
+if (input.UserInputState == Enum.UserInputState.End) then
+dragToggle = false
+end
+end)
+end
+end)
+
+Main.InputChanged:Connect(function(input)
+if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+dragInput = input
+end
+end)
+
+game:GetService("UserInputService").InputChanged:Connect(function(input)
+if (input == dragInput and dragToggle) then
+updateInput(input)
+end
+end)
+end
+
+dragify(script.Parent)
+end
+task.spawn(C_G2L_65)
+
+
+
+return G2L["0"], require;
