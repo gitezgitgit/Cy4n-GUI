@@ -1,0 +1,557 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER FROM MorrisBr
+]=]
+
+
+-- Instances: 19 | Scripts: ?? | Modules: ??
+
+local G2L = {}
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+
+--[[
+    Instances:
+--]]
+
+--ModuleScript
+G2L["0"] = Instance.new("ModuleScript")
+
+--ModuleScript.ScreenGui
+G2L["1"] = Instance.new("ScreenGui")
+
+--ModuleScript.ScreenGui.Frame
+G2L["2"] = Instance.new("Frame")
+
+--ModuleScript.ScreenGui.Frame.TextLabel
+G2L["3"] = Instance.new("TextLabel")
+
+--ModuleScript.ScreenGui.Frame.cy4nsky
+G2L["4"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.cy4nsky.Script
+G2L["5"] = Instance.new("Script")
+
+--ModuleScript.ScreenGui.Frame.Fly
+G2L["6"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.Fly.LocalScript
+G2L["7"] = Instance.new("LocalScript")
+
+--ModuleScript.ScreenGui.Frame.1x1x1x1
+G2L["8"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.1x1x1x1.Script
+G2L["9"] = Instance.new("Script")
+
+--ModuleScript.ScreenGui.Frame.God mode
+G2L["10"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.God mode.LocalScript
+G2L["11"] = Instance.new("LocalScript")
+
+--ModuleScript.ScreenGui.Frame.cy4nspam
+G2L["12"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.cy4nspam.Script
+G2L["13"] = Instance.new("Script")
+
+--ModuleScript.ScreenGui.Frame.Mario EXE
+G2L["14"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.Mario EXE.Script
+G2L["15"] = Instance.new("Script")
+
+--ModuleScript.ScreenGui.Frame.Invisible
+G2L["16"] = Instance.new("TextButton")
+
+--ModuleScript.ScreenGui.Frame.Invisible.LocalScript
+G2L["17"] = Instance.new("LocalScript")
+
+--ModuleScript.ScreenGui.Frame.Invisible.Script
+G2L["18"] = Instance.new("Script")
+
+
+
+--[[
+    Properties:
+--]]
+--ModuleScript
+G2L["0"].Name = [[ModuleScript]]
+G2L["0"].Parent = game.Players.LocalPlayer.PlayerGui
+
+--ModuleScript.ScreenGui
+G2L["1"].Name = [[ScreenGui]]
+G2L["1"].Enabled = true
+G2L["1"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+G2L["1"].Parent = G2L["0"]
+
+--ModuleScript.ScreenGui.Frame
+G2L["2"].Name = [[Frame]]
+G2L["2"].Active = false
+G2L["2"].AnchorPoint = Vector2.new(0, 0)
+G2L["2"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+G2L["2"].BackgroundTransparency = 0
+G2L["2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["2"].BorderSizePixel = 0
+G2L["2"].ClipsDescendants = false
+G2L["2"].Draggable = false
+G2L["2"].Position = UDim2.new(0.008163265, 0, 0.65553236, 0)
+G2L["2"].Rotation = 0
+G2L["2"].Selectable = false
+G2L["2"].SelectionOrder = 0
+G2L["2"].Size = UDim2.new(0, 255, 0, 159)
+G2L["2"].Visible = true
+G2L["2"].ZIndex = 1
+G2L["2"].Parent = G2L["1"]
+
+--ModuleScript.ScreenGui.Frame.TextLabel
+G2L["3"].Name = [[TextLabel]]
+G2L["3"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["3"].Text = [[cy4ngui ServerSide]]
+G2L["3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["3"].TextScaled = false
+G2L["3"].TextSize = 14
+G2L["3"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["3"].TextStrokeTransparency = 0
+G2L["3"].TextWrapped = false
+G2L["3"].TextXAlignment = Enum.TextXAlignment.Left
+G2L["3"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["3"].Active = false
+G2L["3"].AnchorPoint = Vector2.new(0, 0)
+G2L["3"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["3"].BackgroundTransparency = 0
+G2L["3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["3"].BorderSizePixel = 1
+G2L["3"].ClipsDescendants = false
+G2L["3"].Draggable = false
+G2L["3"].Position = UDim2.new(0, 0, -0.0048975917, 0)
+G2L["3"].Rotation = 0
+G2L["3"].Selectable = false
+G2L["3"].SelectionOrder = 0
+G2L["3"].Size = UDim2.new(0, 255, 0, 21)
+G2L["3"].Visible = true
+G2L["3"].ZIndex = 1
+G2L["3"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.cy4nsky
+G2L["4"].Name = [[cy4nsky]]
+G2L["4"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["4"].Text = [[cy4nl Sky]]
+G2L["4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].TextScaled = false
+G2L["4"].TextSize = 18
+G2L["4"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].TextStrokeTransparency = 1
+G2L["4"].TextWrapped = true
+G2L["4"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["4"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["4"].Active = true
+G2L["4"].AnchorPoint = Vector2.new(0, 0)
+G2L["4"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["4"].BackgroundTransparency = 0
+G2L["4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].BorderSizePixel = 1
+G2L["4"].ClipsDescendants = false
+G2L["4"].Draggable = false
+G2L["4"].Position = UDim2.new(0.043137256, 0, 0.18867925, 0)
+G2L["4"].Rotation = 0
+G2L["4"].Selectable = true
+G2L["4"].SelectionOrder = 0
+G2L["4"].Size = UDim2.new(0, 100, 0, 33)
+G2L["4"].Visible = true
+G2L["4"].ZIndex = 1
+G2L["4"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.cy4nsky.Script
+G2L["5"].Name = [[Script]]
+G2L["5"].Parent = G2L["4"]
+
+--ModuleScript.ScreenGui.Frame.Fly
+G2L["6"].Name = [[Fly]]
+G2L["6"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["6"].Text = [[Fly]]
+G2L["6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].TextScaled = false
+G2L["6"].TextSize = 18
+G2L["6"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].TextStrokeTransparency = 1
+G2L["6"].TextWrapped = true
+G2L["6"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["6"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["6"].Active = true
+G2L["6"].AnchorPoint = Vector2.new(0, 0)
+G2L["6"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["6"].BackgroundTransparency = 0
+G2L["6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["6"].BorderSizePixel = 1
+G2L["6"].ClipsDescendants = false
+G2L["6"].Draggable = false
+G2L["6"].Position = UDim2.new(0.5647059, 0, 0.18867925, 0)
+G2L["6"].Rotation = 0
+G2L["6"].Selectable = true
+G2L["6"].SelectionOrder = 0
+G2L["6"].Size = UDim2.new(0, 100, 0, 33)
+G2L["6"].Visible = true
+G2L["6"].ZIndex = 1
+G2L["6"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.Fly.LocalScript
+G2L["7"].Name = [[LocalScript]]
+G2L["7"].Parent = G2L["6"]
+
+--ModuleScript.ScreenGui.Frame.1x1x1x1
+G2L["8"].Name = [[1x1x1x1]]
+G2L["8"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["8"].Text = [[1x1x1x1 Sky]]
+G2L["8"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["8"].TextScaled = false
+G2L["8"].TextSize = 18
+G2L["8"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["8"].TextStrokeTransparency = 1
+G2L["8"].TextWrapped = true
+G2L["8"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["8"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["8"].Active = true
+G2L["8"].AnchorPoint = Vector2.new(0, 0)
+G2L["8"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["8"].BackgroundTransparency = 0
+G2L["8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["8"].BorderSizePixel = 1
+G2L["8"].ClipsDescendants = false
+G2L["8"].Draggable = false
+G2L["8"].Position = UDim2.new(0.043137256, 0, 0.4654088, 0)
+G2L["8"].Rotation = 0
+G2L["8"].Selectable = true
+G2L["8"].SelectionOrder = 0
+G2L["8"].Size = UDim2.new(0, 100, 0, 33)
+G2L["8"].Visible = true
+G2L["8"].ZIndex = 1
+G2L["8"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.1x1x1x1.Script
+G2L["9"].Name = [[Script]]
+G2L["9"].Parent = G2L["8"]
+
+--ModuleScript.ScreenGui.Frame.God mode
+G2L["10"].Name = [[God mode]]
+G2L["10"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["10"].Text = [[God mode]]
+G2L["10"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["10"].TextScaled = false
+G2L["10"].TextSize = 18
+G2L["10"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["10"].TextStrokeTransparency = 1
+G2L["10"].TextWrapped = true
+G2L["10"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["10"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["10"].Active = true
+G2L["10"].AnchorPoint = Vector2.new(0, 0)
+G2L["10"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["10"].BackgroundTransparency = 0
+G2L["10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["10"].BorderSizePixel = 1
+G2L["10"].ClipsDescendants = false
+G2L["10"].Draggable = false
+G2L["10"].Position = UDim2.new(0.042016804, 0, 0.74162626, 0)
+G2L["10"].Rotation = 0
+G2L["10"].Selectable = true
+G2L["10"].SelectionOrder = 0
+G2L["10"].Size = UDim2.new(0, 100, 0, 33)
+G2L["10"].Visible = true
+G2L["10"].ZIndex = 1
+G2L["10"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.God mode.LocalScript
+G2L["11"].Name = [[LocalScript]]
+G2L["11"].Parent = G2L["10"]
+
+--ModuleScript.ScreenGui.Frame.cy4nspam
+G2L["12"].Name = [[cy4nspam]]
+G2L["12"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["12"].Text = [[cy4n Spam]]
+G2L["12"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].TextScaled = false
+G2L["12"].TextSize = 18
+G2L["12"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].TextStrokeTransparency = 1
+G2L["12"].TextWrapped = true
+G2L["12"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["12"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["12"].Active = true
+G2L["12"].AnchorPoint = Vector2.new(0, 0)
+G2L["12"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["12"].BackgroundTransparency = 0
+G2L["12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["12"].BorderSizePixel = 1
+G2L["12"].ClipsDescendants = false
+G2L["12"].Draggable = false
+G2L["12"].Position = UDim2.new(0.5596639, 0, 0.74162626, 0)
+G2L["12"].Rotation = 0
+G2L["12"].Selectable = true
+G2L["12"].SelectionOrder = 0
+G2L["12"].Size = UDim2.new(0, 100, 0, 33)
+G2L["12"].Visible = true
+G2L["12"].ZIndex = 1
+G2L["12"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.cy4nspam.Script
+G2L["13"].Name = [[Script]]
+G2L["13"].Parent = G2L["12"]
+
+--ModuleScript.ScreenGui.Frame.Mario EXE
+G2L["14"].Name = [[Mario EXE]]
+G2L["14"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["14"].Text = [[Mario EXE]]
+G2L["14"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextScaled = false
+G2L["14"].TextSize = 16
+G2L["14"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextStrokeTransparency = 1
+G2L["14"].TextWrapped = false
+G2L["14"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["14"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["14"].Active = true
+G2L["14"].AnchorPoint = Vector2.new(0, 0)
+G2L["14"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["14"].BackgroundTransparency = 0
+G2L["14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].BorderSizePixel = 1
+G2L["14"].ClipsDescendants = false
+G2L["14"].Draggable = false
+G2L["14"].Position = UDim2.new(1.0862746, 0, 0.18867925, 0)
+G2L["14"].Rotation = 0
+G2L["14"].Selectable = true
+G2L["14"].SelectionOrder = 0
+G2L["14"].Size = UDim2.new(0, 98, 0, 33)
+G2L["14"].Visible = true
+G2L["14"].ZIndex = 1
+G2L["14"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.Mario EXE.Script
+G2L["15"].Name = [[Script]]
+G2L["15"].Parent = G2L["14"]
+
+--ModuleScript.ScreenGui.Frame.Invisible
+G2L["16"].Name = [[Invisible]]
+G2L["16"].FontFace = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["16"].Text = [[Invisible]]
+G2L["16"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["16"].TextScaled = false
+G2L["16"].TextSize = 18
+G2L["16"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["16"].TextStrokeTransparency = 1
+G2L["16"].TextWrapped = true
+G2L["16"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["16"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["16"].Active = true
+G2L["16"].AnchorPoint = Vector2.new(0, 0)
+G2L["16"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+G2L["16"].BackgroundTransparency = 0
+G2L["16"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["16"].BorderSizePixel = 1
+G2L["16"].ClipsDescendants = false
+G2L["16"].Draggable = false
+G2L["16"].Position = UDim2.new(0.56358546, 0, 0.4648967, 0)
+G2L["16"].Rotation = 0
+G2L["16"].Selectable = true
+G2L["16"].SelectionOrder = 0
+G2L["16"].Size = UDim2.new(0, 100, 0, 33)
+G2L["16"].Visible = true
+G2L["16"].ZIndex = 1
+G2L["16"].Parent = G2L["2"]
+
+--ModuleScript.ScreenGui.Frame.Invisible.LocalScript
+G2L["17"].Name = [[LocalScript]]
+G2L["17"].Parent = G2L["16"]
+
+--ModuleScript.ScreenGui.Frame.Invisible.Script
+G2L["18"].Name = [[Script]]
+G2L["18"].Parent = G2L["16"]
+
+--[[
+    Scripts
+--]]
+--ModuleScript
+G2L_MODULES[G2L["0"]] = {
+Closure = function()
+local script = G2L["0"]
+
+local module = {}
+
+function module.load(target)
+	_G.target = target
+	local target = game.Players:WaitForChild(_G.target)
+	script.Script:Clone().Parent = target:FindFirstChildOfClass("PlayerGui") or target:FindFirstChildOfClass("Backpack") or target.Character;
+	print("c00lkidd Script.")
+end
+return module
+end
+}
+--ModuleScript.ScreenGui.Frame.Fly.LocalScript
+local function C_G2L_7()
+local script = G2L["7"]
+local keys = {
+	LeftShift = false,
+}
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == "0" then
+		keys.LeftShift = true
+	end
+end)
+game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+	if key == "0" then
+		keys.LeftShift = false
+	end
+end)
+local hack = false
+script.Parent.MouseButton1Click:Connect(function()
+	hack = not hack
+	if hack then
+		script.Parent.Text = "Fly: on"
+		script.Parent.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+		local humanoid = nil
+		while hack do
+			local fps = game["Run Service"].RenderStepped:Wait()
+			if not humanoid or not humanoid.Parent or not humanoid.Parent.Parent then
+				if game.Players.LocalPlayer.Character then
+					if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+						humanoid = game.Players.LocalPlayer.Character.Humanoid
+						humanoid.PlatformStand = true
+					end
+				end
+			else
+				humanoid.PlatformStand = true
+				if humanoid.RootPart then
+					if humanoid.RootPart:FindFirstChild("NoGravity") then
+						humanoid.RootPart.NoGravity.Force = Vector3.new(0,workspace.Gravity*humanoid.RootPart.AssemblyMass,0)
+					else
+						local no = Instance.new("BodyForce",humanoid.RootPart)
+						no.Name = "NoGravity"
+						no.Force = Vector3.new(0,workspace.Gravity*humanoid.RootPart.AssemblyMass,0)
+					end
+					local vel = humanoid.MoveDirection*humanoid.WalkSpeed
+					if humanoid.Jump then
+						vel = vel+Vector3.new(0,humanoid.WalkSpeed,0)
+					end
+					if keys.LeftShift then
+						vel = vel+Vector3.new(0,-humanoid.WalkSpeed,0)
+					end
+					humanoid.RootPart.Velocity = ((humanoid.RootPart.Velocity-vel)*(0.75^(30/(1/fps))))+vel
+				end
+			end
+		end
+	else
+		script.Parent.Text = "Fly"
+		script.Parent.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+		game["Run Service"].RenderStepped:Wait()
+		game["Run Service"].RenderStepped:Wait()
+		if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+			game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+			if game.Players.LocalPlayer.Character.Humanoid.RootPart and game.Players.LocalPlayer.Character.Humanoid.RootPart:FindFirstChild("NoGravity") then
+				game.Players.LocalPlayer.Character.Humanoid.RootPart.NoGravity:Destroy()
+			end
+		end
+	end
+end)
+end
+task.spawn(C_G2L_7)
+
+
+--ModuleScript.ScreenGui.Frame.God mode.LocalScript
+local function C_G2L_11()
+local script = G2L["11"]
+local keys = {
+	LeftShift = false,
+}
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == "0" then
+		keys.LeftShift = true
+	end
+end)
+game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+	if key == "0" then
+		keys.LeftShift = false
+	end
+end)
+local hack = false
+script.Parent.MouseButton1Click:Connect(function()
+	hack = not hack
+	if hack then
+		script.Parent.Text = "God Mode"
+		script.Parent.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+		local humanoid = nil
+		while hack do
+			local fps = game["Run Service"].RenderStepped:Wait()
+			if not humanoid or not humanoid.Parent or not humanoid.Parent.Parent then
+				if game.Players.LocalPlayer.Character then
+					if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+						humanoid = game.Players.LocalPlayer.Character.Humanoid
+						if humanoid.RootPart then
+							humanoid.RootPart.Anchored = true
+						end
+					end
+				end
+			else
+				if humanoid.RootPart then
+					humanoid.RootPart.Anchored = true
+					local vel = humanoid.MoveDirection*humanoid.WalkSpeed
+					if humanoid.Jump then
+						vel = vel+Vector3.new(0,humanoid.WalkSpeed,0)
+					end
+					if keys.LeftShift then
+						vel = vel+Vector3.new(0,-humanoid.WalkSpeed,0)
+					end
+					humanoid.RootPart.Velocity = ((humanoid.RootPart.Velocity-vel)*(0.75^(30/(1/fps))))+vel
+					humanoid.RootPart.CFrame = (humanoid.RootPart.CFrame+(humanoid.RootPart.Velocity*fps))*CFrame.Angles(humanoid.RootPart.RotVelocity.X*fps,humanoid.RootPart.RotVelocity.Y*fps,humanoid.RootPart.RotVelocity.Z*fps)
+				end
+			end
+		end
+	else
+		script.Parent.Text = "God Mode"
+		script.Parent.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+		game["Run Service"].RenderStepped:Wait()
+		game["Run Service"].RenderStepped:Wait()
+		if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") and game.Players.LocalPlayer.Character.Humanoid.RootPart then
+			game.Players.LocalPlayer.Character.Humanoid.RootPart.Anchored = false
+		end
+	end
+end)
+end
+task.spawn(C_G2L_11)
+
+
+--ModuleScript.ScreenGui.Frame.Invisible.LocalScript
+local function C_G2L_17()
+local script = G2L["17"]
+local tool = game.ReplicatedStorage.TPTool --Refers "tool" as game.ReplicatedStorage.YourTool. Put your tool name in the ClassicSword.
+local player = game.Players.LocalPlayer --finds the script's parent, the player.
+
+script.Parent.MouseButton1Click:Connect(function() --when clicked, function
+	tool:Clone() --clones tool
+	tool:Clone().Parent = player.Backpack --has the cloned tool's parent the player's Backpack
+end)
+end
+task.spawn(C_G2L_17)
+
+
+
+return G2L["0"], require;
